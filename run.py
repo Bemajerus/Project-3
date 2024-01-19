@@ -36,3 +36,14 @@ class TaskManager:
             
         except IndexError:
             print("Task index invalid!")
+
+    # List tasks
+    def list_tasks(self):
+        if not self.tasks:
+            print("No tasks available")
+            return
+        
+        for i, task in enumerate(self.tasks, start=1):
+            print(f"{i}. {task.title} - Description: {task.description} - Priority: {task.priority} - Due Date: {task.due_date}")
+            
+    
