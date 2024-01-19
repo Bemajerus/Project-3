@@ -129,6 +129,10 @@ def main():
         else:
             print("Invalid choice, please enter a number between 1 and 5")
             
+# Calls the main function when the script is executed as a main program. This ensures that the code inside main() is executed only when the script is run, not when it is imported as a module.
+if __name__ == "__main__":
+    main()
+            
         
         
         
