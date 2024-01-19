@@ -71,6 +71,20 @@ def get_due_date():
         except ValueError:
             print("Date format invalid, please use YYYY-MM-DD")
             
+# Defines the main main function. In the while loop, displays the menu, gets the user's choice, and performs the corresponding action.
+def main():
+    task_manager = TaskManager()
+    
+    while True:
+        print("\nTask Manager Menu:")
+        print("1 - Add Task")
+        print("2 - List Tasks")
+        print("3 - Delete Task")
+        print("4 - Update Task")
+        print("5 - Exit")
+        
+        choice = get_user_input("Enter your choice (1-5): ")
+        
 
             
     
