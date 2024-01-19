@@ -107,6 +107,18 @@ def main():
             index = int(get_user_input("Enter the task index to delete: ")) -1
             task_manager.delete_task(index)
             
+        # If the user's choice is "4", prompts for the task index to update and new task information, converts the index to an integer, creates an instance of Task, and calls the update_task method of the TaskManager class.
+        elif choice == "4":
+            index = int(get_user_input("Enter the task index to update: ")) -1
+            title = get_user_input("Enter updated task title: ")
+            description = get_user_input("Enter updated task description: ")
+            priority = get_priority()
+            due_date = get_due_date()
+            category = get_user_input("Enter updated task category: ")
+            
+            updated_task = Task(title, description, priority, due_date, category)
+            task_manager.update_task(index, updated_task)
+            
         
             
         
