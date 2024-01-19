@@ -10,3 +10,13 @@ class Task:
         self.due_date = due_date
         self.category = category 
         
+# Defines a TaskManager class with a tasks list to store instances of the Task class
+class TaskManager:
+    def __init__(self):
+        self.tasks = []
+        
+    # Add a task
+    def add_task(self, task):
+        self.tasks.append(task)
+        
+    
