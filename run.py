@@ -60,6 +60,17 @@ def get_priority():
         else:
             print("Invalid priority. Please enter High, Medium or Low")
             
+# Defines a get_due_date function to get the task's due date from the user, ensuring it is in the correct format (YYYY-MM-DD).
+def get_due_date():
+    while True:
+        date_str = get_user_input("Enter due date (YYYY-MM-DD): ")
+        try:
+            due_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+            return due_date
+        
+        except ValueError:
+            print("Date format invalid, please use YYYY-MM-DD")
+            
 
             
     
