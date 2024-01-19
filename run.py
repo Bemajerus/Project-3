@@ -96,6 +96,13 @@ def main():
             new_task = Task(title, description, priority, due_date, category)
             task_manager.add_task(new_task)
             print("Task added!")
+            
+        # If the user's choice is "2", displays the list of tasks using the list_tasks method of the TaskManager class.
+        if choice == "2":
+            print("\nTask List:")
+            task_manager.list_tasks()
+            
+        
         
         
 
