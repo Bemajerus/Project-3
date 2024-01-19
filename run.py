@@ -98,9 +98,16 @@ def main():
             print("Task added!")
             
         # If the user's choice is "2", displays the list of tasks using the list_tasks method of the TaskManager class.
-        if choice == "2":
+        elif choice == "2":
             print("\nTask List:")
             task_manager.list_tasks()
+            
+        # If the user's choice is "3", prompts for the task index to delete, converts it to an integer, and calls the delete_task method of the TaskManager class.
+        elif choice =="3":
+            index = int(get_user_input("Enter the task index to delete: ")) -1
+            task_manager.delete_task(index)
+            
+        
             
         
         
