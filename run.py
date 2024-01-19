@@ -19,4 +19,20 @@ class TaskManager:
     def add_task(self, task):
         self.tasks.append(task)
         
-    
+    # Delete a task
+    def delete_task(self, index):
+        try:
+            del self.tasks[index]
+            print("Task deleted!")
+            
+        except IndexError:
+            print("Task index invalid!")
+            
+    # Update a task
+    def update_task(self, index, updated_task):
+        try:
+            self.tasks[index] = updated_task
+            print("Task updated!")
+            
+        except IndexError:
+            print("Task index invalid!")
