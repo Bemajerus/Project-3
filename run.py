@@ -46,4 +46,10 @@ class TaskManager:
         for i, task in enumerate(self.tasks, start=1):
             print(f"{i}. {task.title} - Description: {task.description} - Priority: {task.priority} - Due Date: {task.due_date}")
             
+# Defines a 'get_user_input' function to get user input, removing extra spaces.
+def get_user_input(prompt):
+    return input(prompt).strip()
+
+
+            
     
