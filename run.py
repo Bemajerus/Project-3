@@ -119,7 +119,15 @@ def main():
             updated_task = Task(title, description, priority, due_date, category)
             task_manager.update_task(index, updated_task)
             
+        # If the user's choice is "5", prints an exit message and breaks the loop, ending the program.
+        elif choice == "5":
+            print("Exiting Task Manager!")
+            
+            break
         
+        # If the user's choice is not one of the valid options, informs that the choice is invalid.
+        else:
+            print("Invalid choice, please enter a number between 1 and 5")
             
         
         
