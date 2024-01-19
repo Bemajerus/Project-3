@@ -85,6 +85,19 @@ def main():
         
         choice = get_user_input("Enter your choice (1-5): ")
         
+        # If the user's choice is "1", prompts for information about the new task, creates an instance of Task, adds it to the task list, and informs the user that the task was added successfully.
+        if choice == "1":
+            title = get_user_input("Enter task title: ")
+            description = get_user_input("Enter task description: ")
+            priority = get_priority()
+            due_date = get_due_date()
+            category = get_user_input("Enter task category: ")
+            
+            new_task = Task(title, description, priority, due_date, category)
+            task_manager.add_task(new_task)
+            print("Task added!")
+        
+        
 
             
     
