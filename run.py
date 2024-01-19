@@ -50,6 +50,16 @@ class TaskManager:
 def get_user_input(prompt):
     return input(prompt).strip()
 
+# Defines a get_priority function to get the task priority from the user, ensuring it is a valid option (High, Medium, or Low).
+def get_priority():
+    while True:
+        priority = get_user_input("Enter task priority (High/Medium/Low): ").capitalize()
+        if priority in ["High", "Medium", "Low"]:
+            return priority
+        
+        else:
+            print("Invalid priority. Please enter High, Medium or Low")
+            
 
             
     
