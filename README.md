@@ -44,3 +44,8 @@ The application has undergone testing to ensure robust functionality and a posit
 - __Code Validators__
   - The Python code has been validated using PEP8 to maintain consistent style and readability.
   - No errors were found when passing through the official PEP8 validator.
+
+### Validator Testing
+
+- __Python(PEP8)__
+  -  No errors were returned when passing through the official PEP8 validator.
