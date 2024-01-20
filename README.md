@@ -14,3 +14,9 @@ Built upon the fundamentals of Python programming, the Task Manager employs stan
   - The application supports listing tasks, displaying essential information like title, priority, and due date.
   - Tasks can be deleted, offering users the flexibility to remove completed or unnecessary items.
   - An update feature allows users to modify task details, ensuring the information remains accurate and relevant.
+
+- __Console Interface__
+
+  - The user interacts with the Task Manager through a console-based menu system, making it straightforward and accessible.
+  - A menu displays options for adding tasks, listing tasks, updating tasks, and deleting tasks, providing a clear navigation structure.
+  - User input is gathered through simple prompts, ensuring a user-friendly experience.
