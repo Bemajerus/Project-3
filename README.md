@@ -49,3 +49,7 @@ The application has undergone testing to ensure robust functionality and a posit
 
 - __Python(PEP8)__
   -  No errors were returned when passing through the official PEP8 validator.
+
+## Future Enhancements
+
+The Task Manager project can be expanded by incorporating additional features such as task prioritization, due date reminders, and user authentication. Regular updates and improvements will contribute to a more robust and versatile task management tool.
