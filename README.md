@@ -54,3 +54,34 @@ The application has undergone testing to ensure robust functionality and a posit
 ## Future Enhancements
 
 The Task Manager project can be expanded by incorporating additional features such as task prioritization, due date reminders, and user authentication. Regular updates and improvements will contribute to a more robust and versatile task management tool.
+
+## Deployment
+
+This project was deployed using Code Institute's mock terminal for Heroku.
+
+- __Steps for deployment__
+  - Fork or clone this repository.
+  - Create a new Hekoku app.
+  - Set the buildbacks to Python and NodeJS in that order.
+  - Link the Heroku app to the repository.
+  - Click on Deploy.
+
+### How to Clone
+
+1. Log into your account on github
+2. Go to the repository of this project Bemajerus/Project-3/
+3. Click on the code button, and copy your preferred clone link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, Bemajerus/Project-3/
+3. Click the Fork button in the top right corner.
+
+## Credits
+
+- Code Institute for the deployment terminal.
